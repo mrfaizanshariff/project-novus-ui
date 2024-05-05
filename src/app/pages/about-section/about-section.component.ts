@@ -25,7 +25,7 @@ export class AboutSectionComponent implements OnInit,AfterViewInit {
   cardAnimation(cardNumber:string,duration:number) {
    gsap.from(`${cardNumber}`,{
       scrollTrigger:{
-        trigger:'.second-about-section',
+        trigger:'#second-about-section',
         start:'60% center',
         end: '70% center',
         // markers:true

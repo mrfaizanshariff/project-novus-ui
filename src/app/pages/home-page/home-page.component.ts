@@ -17,7 +17,7 @@ export class HomePageComponent implements OnInit {
     gsap.from('.hero-section',{
       scrollTrigger:{
         trigger:".hero-section",
-        start:"18% 15%",
+        start:"12% 11%",
         end:"5% 5%",
         // markers:true,
         onEnterBack:()=>{

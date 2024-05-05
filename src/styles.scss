@@ -15,7 +15,31 @@ body,*{
 body{
     min-height: 100vh;
     overflow-x: hidden !important;
+    scroll-behavior: smooth;
+    
 }
+/* Style the scrollbar for the entire body */
+body::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #842ca6; /* Color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #d049d7; /* Color of the scrollbar handle on hover */
+  }
+  body::-webkit-scrollbar-thumb{
+    border-radius: 16px;
+  }
 .cta-btn{
     padding: 24px 38px;
     border-radius: 33px;
