@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,*{
+    padding: 0;
+    margin: 0;
+    // font-family: "Comic Neue", cursive;
+    // font-family:"Merriweather", serif;
+    font-family: "Poppins", sans-serif;
+} 
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden !important;
+}
+.cta-btn{
+    padding: 24px 38px;
+    border-radius: 33px;
+    // background: #cd0fcb;
+    box-shadow:  15px 15px 14px #8d0a8c,
+             -15px -15px 14px #ff14ff;
+    background: rgb(2,0,36);
+    background: linear-gradient(112deg, rgba(2,0,36,1) 1%, rgba(220,16,216,1) 74%, rgba(56,85,120,1) 100%);
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.cta-btn:hover{
+    box-shadow:  19px 19px 23px #640763,
+             -19px -19px 23px #ff17ff;
+}

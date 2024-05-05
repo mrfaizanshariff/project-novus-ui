@@ -1,0 +1,26 @@
+<main class="home-page-wrapper hero-section text-white">
+    <app-header-component [scroll]="scroll"></app-header-component>
+    <section class="pl-[5%] pb-[8%] pt-[5%]">
+        <div id='title'class="text-8xl font-normal hero-text-container">
+            <h1 id="text1" class="text-6xl"></h1>
+            <!-- <h1 class="text-6xl"></h1> -->
+            <h1 id="text2" class="italic"></h1>
+        </div>
+        <div class="hero-section-two-container mt-[8%] flex gap-[10%] items-end ">
+            <div class="flex flex-col font-normal">
+                <span class="font-bold">* [novus]</span>
+                <hr class="w-[4%] border-none outline-1 outline-yellow-400 outline">
+                <span>Latin origin</span>
+                <span class="leading-4">Meaning - <span class="font-bold text-yellow-300">NEW, FRESH, YOUNG</span></span>
+                <span class="font-bold italic text-lg">Used to denote a new beginning or a fresh approach to something</span>
+            </div>
+            <div class="cta-container">
+                <button class="cta-btn callToAction opacity-0">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="pb-[5%]">
+        <app-about-section></app-about-section>
+    </section>
+</main>
